@@ -17,6 +17,11 @@
             "name": "Notice of Medallion Transfers",
             "endpoint": "https://data.seattle.gov/resource/rk6r-ehyv",
             "update_freq": -1
+        },
+        {
+            "name": "Seattle Police Department 911 Incident Responses",
+            "endpoint": "https://data.seattle.gov/resource/3k2p-39jp",
+            "update_freq": 14400
         }
     ]
 }

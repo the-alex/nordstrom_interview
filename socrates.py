@@ -53,6 +53,7 @@ def update_dataset(ds):
 
     # Get the url endpoint for this dataset
     target = '%s.%s' % (ds['endpoint'], CONFIG['ds_format'])
+    target = target + '?$limit=50000'
     req = requests.get(target)
 
     # Generate valid file path
