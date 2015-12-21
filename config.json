@@ -1,0 +1,22 @@
+{
+    "ds_format": "csv",
+    "data_path": "data/",
+    "logs_path": "logs/",
+    "datasets": [
+        {
+            "name": "Seattle Real Time Fire 911 Calls",
+            "endpoint": "https://data.seattle.gov/resource/kzjm-xkqj",
+            "update_freq": 300
+        },
+        {
+            "name": "Building Permits: Current",
+            "endpoint": "https://data.seattle.gov/resource/mags-97de",
+            "update_freq": -1
+        },
+        {
+            "name": "Notice of Medallion Transfers",
+            "endpoint": "https://data.seattle.gov/resource/rk6r-ehyv",
+            "update_freq": -1
+        }
+    ]
+}

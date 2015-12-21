@@ -8,7 +8,7 @@ It's a data manager. The application will provide an interface for adding datase
 * Update the dataset.
 
 ```
-    Data/
+    data/
         911_response_fires/
             11_21_14/
                 data.csv
